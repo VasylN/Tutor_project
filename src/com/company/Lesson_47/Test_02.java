@@ -8,7 +8,6 @@ import java.util.Arrays;
 public class Test_02 {
     public static void main(String[] args) {
         int[] mas = {-6, -4, 1, 2, 3, 5};
-
         for (int ma :  sortedSquaredArray(mas)) {
             System.out.println(ma);
         }
@@ -19,7 +18,6 @@ public class Test_02 {
         for (int i = 0; i < array.length; i++) {
             result[i] = array[i] * array[i];
         }
-
         Arrays.sort(result);
         return result;
     }
