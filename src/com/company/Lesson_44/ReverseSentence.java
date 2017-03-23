@@ -7,10 +7,14 @@ public class ReverseSentence {
     public static void main(String[] args) {
         System.out.println(reverseSentence("Man bites dog"));
     }
-   public static String reverseSentence(String sentence) {
 
-        String.valueOf(sentence);
-        return new StringBuffer(sentence).reverse().toString();
-
+    public static String reverseSentence(String sentence) {
+        String[] strings = sentence.split(" ");
+        String result = "";
+        for (int i = strings.length -1; i >= 0; i--) {
+            result += strings[i] + " ";
+        }
+        return result.trim();
     }
+
 }
