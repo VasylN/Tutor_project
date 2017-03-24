@@ -6,7 +6,7 @@ package com.company.Interview;
  */
 public class I_Binary_Search {
     public static void main(String[] args) {
-        int[] arr = {5, 23, 27, 36, 45, 55, 59, 120, 130, 150, 200};
+        int[] arr = {13, 24,54,3,5,45,67,3,45,11,333};
 
         System.out.println(searchBinary(23, arr));
     }
