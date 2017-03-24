@@ -14,15 +14,16 @@ import java.io.InputStreamReader;
 public class I_NOD {
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        int i = Integer.parseInt(reader.readLine());
+        int k = Integer.parseInt(reader.readLine());
         int j = Integer.parseInt(reader.readLine());
-        maxDiv(i,j);//6,12
+        maxDiv(k,j);//6,12
     }
-    public static void maxDiv(int i, int j) {
+    public static void maxDiv(int k, int j) {
         int temp = 1;
         int temp1 = 0;
-        while (temp <= i && temp <= j) {
-            if (i % temp == 0 && j % temp == 0) { //6, 12
+
+        while (temp <= k && temp <= j) {
+            if (k % temp == 0 && j % temp == 0) { //6, 12
                 temp1 = temp;
                 temp++;
             } else temp++;
