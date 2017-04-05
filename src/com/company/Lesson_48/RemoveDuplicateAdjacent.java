@@ -9,7 +9,7 @@ import java.util.Set;
  */
 public class RemoveDuplicateAdjacent {
     public static void main(String[] args) {
-        String s = "coooodefightssforrrcodeeee";
+        String s = "csertergergtttttyyyyterrt454";
         System.out.println(removeDuplicateAdjacent(s));
 
     }
