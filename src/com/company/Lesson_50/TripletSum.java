@@ -10,7 +10,7 @@ public class TripletSum {
     public static void main(String[] args) {
         int x = 15;
         int a[] = {14, 1, 2, 3, 8, 15, 3};
-        System.out.println(tripletSum(x,a));
+       // System.out.println(tripletSum(x,a));
     }
 
     /*public static boolean tripletSum(int x, int[] a) {
@@ -26,7 +26,7 @@ public class TripletSum {
         }
         return false;
     }*/
-    public static boolean tripletSum(int x, int[] a){
+    /*public static boolean tripletSum(int x, int[] a){
         List<Integer> integerList = new ArrayList<>();
         for (int i = 0; i < a.length; i++) {
             integerList.add(a[i]);
@@ -38,6 +38,6 @@ public class TripletSum {
             }
         }
 
-    }
+    }*/
 }
 
