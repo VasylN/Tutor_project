@@ -5,7 +5,7 @@ package com.company.Lesson_51.Task_01.Task_02;
  */
 public class StringReformatting {
     public static void main(String[] args) {
-        String s  = "2-4a0r7-4k";
+        String s  = "\"2-4a0r7-4k2-4a0r7-4k\"";
         int k = 4;
        System.out.println(stringReformatting(s,k));
 
