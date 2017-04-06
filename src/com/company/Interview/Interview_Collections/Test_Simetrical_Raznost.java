@@ -20,6 +20,7 @@ public class Test_Simetrical_Raznost {
 
     public static Collection different(Collection a, Collection b){
         Collection intersection = new ArrayList(a);
+
         intersection.retainAll(b);
         Collection result = new ArrayList(a);
         result.addAll(b);
