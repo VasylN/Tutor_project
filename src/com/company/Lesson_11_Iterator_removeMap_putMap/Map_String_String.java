@@ -11,7 +11,7 @@ import java.util.Map;
  десять записей по принципу «фамилия» - «имя».
 Удалить людей, имеющих одинаковые имена.
 */
-public class Test_04 {
+public class Map_String_String {
     public static void main(String[] args) {
         Map<String, String> map = createMap();
         map = removeTheFirstNameDuplicate(map);
