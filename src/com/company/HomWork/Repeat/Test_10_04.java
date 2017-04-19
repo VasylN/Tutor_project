@@ -10,24 +10,23 @@ import java.util.List;
 */
 public class Test_10_04 {
     public static void main(String[] args) {
+        System.out.println(createList());
 
     }
-    public static List<String> createList(){
+
+    public static List<String> createList() {
         List<String> stringList = new ArrayList<>();
         stringList.add("SSS");
         stringList.add("SSSee");
         stringList.add("SSSeeee");
         stringList.add("SSSeeeeee");
+        int max = 0;
         for (int i = 0; i < stringList.size(); i++) {
+            if (stringList.get(i).length() > max)
+                max = stringList.get(i).length();
 
         }
         return stringList;
     }
-    public static List<String> maxString(){
-        int max = 0;
-        for (int i = 0; i < s; i++) {
 
-        }
-
-    }
 }
