@@ -1,7 +1,6 @@
-package com.company.Lessson_53.Task_01;
+package com.company.Lesson_53;
 
 import java.math.BigInteger;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;

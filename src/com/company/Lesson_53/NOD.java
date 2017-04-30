@@ -1,6 +1,4 @@
-package com.company.Lessson_53.Task_01;
-
-import java.util.Map;
+package com.company.Lesson_53;
 
 /**
  * Created by Pc on 19.04.2017.
