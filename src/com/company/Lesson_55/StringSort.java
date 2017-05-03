@@ -12,6 +12,7 @@ public class StringSort {
         }
 
     }
+
     public static void sort(String[] mas){
         for (int i = 0; i < mas.length-1; i++) {
             for (int j = 0; j < mas.length - 1; j++) {
