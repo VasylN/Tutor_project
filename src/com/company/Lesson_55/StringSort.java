@@ -5,7 +5,7 @@ package com.company.Lesson_55;
  */
 public class StringSort {
     public static void main(String[] args) {
-        String [] mas = {"public", "static", "void", "main"};
+        String [] mas = {"public", "atatic", "void", "main"};
        sort(mas);
         for (int i = 0; i < mas.length; i++) {
             System.out.println(mas[i]);
