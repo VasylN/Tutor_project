@@ -4,28 +4,24 @@ package com.company.Lesson_45;
  * Created by Pc on 12.03.2017.
  */
 
-abstract class A {
-    int a = 8;
+class Test {
 
-    public A() {
-        show();
+    static class A extends B {
+        static Integer q = 2;
+        static {
+            System.out.print("A");
+            A.q = 4;
+        }
     }
 
-    abstract void show();
-}
-
-class B extends A {
-     static int a;
-    static {
-        a = 90;
+    static class B {
+        static {
+            System.out.print("B");
+            A.q++;
+        }
     }
 
-    void show() {
-        System.out.println("" + a);
-    }
-
-    public static void main(String args[]) {
-        new B();
+    public static void main(String[] args) {
+        System.out.println(A.q);
     }
 }
-

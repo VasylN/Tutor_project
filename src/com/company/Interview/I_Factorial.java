@@ -15,6 +15,7 @@ public class I_Factorial {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         int f = Integer.parseInt(reader.readLine());
         System.out.println(faktorial1(f));
+
     }
 
     private static Map<Integer, BigInteger> cache = new HashMap<>();
@@ -27,5 +28,6 @@ public class I_Factorial {
         temp = BigInteger.valueOf(f).multiply(faktorial1(f - 1));
         cache.put(f, temp);
         return temp;
+
     }
 }

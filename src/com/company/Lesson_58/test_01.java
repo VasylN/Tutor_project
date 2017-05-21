@@ -5,22 +5,26 @@ package com.company.Lesson_58;
  */
 public class test_01 {
     public static void main(String[] args) {
-        int[] arr = {123, 33, 213, 45, 65, 2, 2, 4};
-        sortArryay(arr);
-        for (int i = 0; i < arr.length; i++) {
-            System.out.println(arr[i]);
-        }
+        int i = 9;
+        int j = 12;
+        nod(i,j);
     }
 
-    public static void sortArryay(int[] arr) {
-        for (int i = 0; i < arr.length - 1; i++) {
-            for (int j = 0; j < arr.length - 1; j++) {
-                if (arr[j] > arr[j + 1]) {
-                    int temp = arr[j];
-                    arr[j] = arr[j + 1];
-                    arr[j + 1] = temp;
-                }
-            }
+    public static void nod(int i, int j){
+        int temp = 1;
+        int temp1 = 1;
+        while (temp <= i && temp <= j  ){
+            if (i%temp ==0 &&j%temp==0){
+                temp1 = temp;
+                temp++;
+            }else temp++;
         }
+        System.out.println(temp1);
+    }
+   public class ss{
+
+    }
+    abstract class qw extends ss{
+
     }
 }

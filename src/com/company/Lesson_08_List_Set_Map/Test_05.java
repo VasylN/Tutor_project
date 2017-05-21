@@ -11,7 +11,7 @@ public class Test_05 {
     public static void main(String[] args) {
         Map<String, String> map = new HashMap<>();
         map.put("first", "Test1");
-        map.put("first2", "Test1");
+        map.put("first", "Testроро");
         map.put("first5", "Test1");
         map.put("first3", "Test1");
 
