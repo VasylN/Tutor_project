@@ -1,5 +1,8 @@
 package com.company.Interview;
 
+import java.util.Map;
+import java.util.concurrent.atomic.AtomicInteger;
+
 /**
  * Created by Pc on 20.11.2016.
  *//*Найти ряд Фибоначи для числа 11*/
@@ -16,7 +19,8 @@ package com.company.Interview;
     10 -- 34 + 21 = 55;
     11 -- 55 + 34 = 89;
   */
-public class I_Fibbonachi {
+public abstract class I_Fibbonachi {
+    Map
     public static void main(String[] args) {
         int n = 11;
         for (int i = 1; i <= n; i++) {
@@ -28,5 +32,17 @@ public class I_Fibbonachi {
         else if(index == 1) return 1;
         else if(index == 2) return 1;
         else return fibon(index - 1) + fibon(index - 2);
+    }
+
+    abstract void m();
+}
+
+interface B{
+    public final static int a = 10;
+
+    public abstract void m1();
+
+    default void m(){
+        System.out.println("");
     }
 }
